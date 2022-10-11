@@ -1,0 +1,67 @@
+INSTRUCTIONS: Fill out the following form and upload the form to your GITHub repository. 
+Choose only one of the corresponding numbers in your answer for sections A-F.  
+Answer the questions in section G in sentence form.
+
+A. Code Quality 
+0 - Nothing - No submission
+1 - Below Expectations - Code renders but the code is unreadable 
+2 - Meets Expectations - Good formatting and uses naming conventions but can be improved
+3 - Exceeds Expectations - Code is exceptionally clean and best practices are used
+Your Answer: 2
+
+
+B. Content 
+0 - Nothing - No submission
+1 - Below Expectations - Content not related to assignment or project
+2 - Meets Expectations - Content is related to assignment or project and gets the point across
+3 - Exceeds Expectations - Content is exceptionally detailed and well put together
+Your Answer: 2
+
+
+C. Layout / Organization 
+0 - Nothing - No Submission
+1 - Below Expectations - Long codes with no divisions or random code layout
+2 - Meets Expectations - Code that is modular and divided into section declarations; subprograms
+3 - Exceeds Expectations - Code is exceptionally well organized. 
+Your Answer: 2
+
+
+D. Comments/Commits 
+0 - Nothing - No Submission
+1 - Below Expectations - Excessive, unnecessary, and irrelevant remarks
+2 - Meets Expectations - Comments identify authorship and code's intention
+3 - Exceeds Expectations - Comments and documentation are clear succinct; wizardry points are explained
+Your Answer: 2
+
+
+E. Rendering 
+0 - Nothing - Page does not load or render
+1 - Below Expectations - Page renders, but has errors and/or has apparent design issues
+2 - Meets Expectations - Page renders and produces no errors
+3 - Exceeds Expectations - Page renders and displays properly for multiple screen sizes and browsers 
+Your Answer: 2
+
+F. Process
+0 - Nothing - Project not attempted
+1 - Below Expectations - code and documents not added to repository at correct times
+2 - Meets Expectations - code published as website, milestones met
+3 - Exceeds Expectations - all milestones accomplished, submissions organized, instructions carefully followed, steps thoroughly documented
+Your Answer: 2
+
+G. Self Evaluation Questions:
+
+1. How much time did you spend on this assignment/project?
+A few hours actively thinking about / working on it, plus time spent considering ideas while not
+actively working.
+
+2. How difficult did you feel this project was? Easy, moderate, difficult?
+On the easier side, since this is a proposal describing what is intended to be done on the project and how,
+and not the actual implementation, so any challenges here are on the design side, not the technical side.
+
+3. What challenges did you come across while working on this project?
+Considering how to describe the methods, considering that is a bit harder when there are things that I may
+want to use that I don't know about yet because we haven't learned about them.
+
+4. What things would you like to learn more about after having worked on this assignment?
+Things that will be useful for the project. Honestly I don't know what else to say given that this is a
+project overview / proposal, not a learning assignment or a finished project.
