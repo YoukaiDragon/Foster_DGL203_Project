@@ -3,4 +3,48 @@
   margin: 0;
   padding: 0;
 }
+
+.nav {
+  background: rgb(44, 43, 43);
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding-top: 0.5rem;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(164, 164, 164);
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+.nav a:hover {
+  color: rgb(55, 55, 243);
+}
+.nav__main {
+  margin-left: 10px;
+  display: flex;
+  padding-bottom: 1rem;
+}
+.nav__games {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 0.5rem;
+}
+.nav .search {
+  display: table;
+}
+.nav .search form {
+  display: inline-block;
+  width: auto;
+}
+.nav .search button {
+  background: white;
+  float: right;
+  cursor: pointer;
+}
+
+header {
+  padding-top: 75px;
+}
 /*# sourceMappingURL=main.css.map */
