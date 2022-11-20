@@ -7,55 +7,88 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>ChillGames - Puzzle Games</title>
 </head>
 
 <body>
-    <header>
-        <h1>Puzzle Games</h1>
-    </header>
-    <div>
-        <a href="../game/dailynonograms.html">
-            <img src="../images/dailynonograms200.jpg" width="200px" height="auto" alt="Daily Nonograms">
-            <p>Daily Nonograms</p>
-        </a>
+    <nav class="nav">
+        <div class="nav__main">
+            <!-- Top Banner -->
+            <a class="logotype" href="../index.html">ChillGames</a>
+            <a href="../login.html">Login</a>
+            <a href="../createAccount.html">Register</a>
+            <a href="../account.html">Account</a>
+            <div class="search">
+                <form action="search.html">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="nav__games">
+            <a href="category/popular.html">Popular</a>
+            <a href="category/action.html">Action</a>
+            <a href="category/puzzle.html">Puzzle</a>
+            <a href="category/platform.html">Platformer</a>
+            <a href="category/favourites.html">Favourites</a>
+        </div>
+    </nav>
+    <div class="games">
+        <header>
+            <h1>Puzzle Games</h1>
+        </header>
+        <div class="games__category">
+            <div class="games__category-items">
+                <div class="games__item">
+                    <a href="../game/dailynonograms.html">
+                        <img src="../images/dailynonograms200.jpg" width="200px" height="auto" alt="Daily Nonograms">
+                        <p>Daily Nonograms</p>
+                    </a>
+                </div>
+                <div class="games__item">
+                    <a href="../game/pushpuzzle.html">
+                        <img src="../images/pushpuzzle200.jpg" width="200px" height="auto" alt="Push Puzzle">
+                        <p>Daily Nonograms</p>
+                    </a>
+                </div>
+                <div class="games__item">
+                    <a href="../game/floodfill.html">
+                        <img src="../images/Floodfill.png" width="200px" height="200px" alt="Floodfill">
+                        <p>Floodfill</p>
+                    </a>
+                </div>
+                <div class="games__item">
+                    <a href="../game/onus.html">
+                        <img src="../images/onus.webp" width="200px" height="200px" alt="Onus">
+                        <p>Onus</p>
+                    </a>
+                </div>
+                <div class="games__item">
+                    <a href="../game/dailysudoku.html">
+                        <img src="../images/dailysudoku300x200.jpg" width="200px" height="auto" alt="Daily Sudoku">
+                        <p>Daily Sudoku</p>
+                    </a>
+                </div>
+                <div class="games__item">
+                    <a href="../game/tictactoe.html">
+                        <img src="../images/tictactoe.png" width="200px" height="200px" alt="Tic Tac Toe">
+                        <p>Tic Tac Toe</p>
+                    </a>
+                </div>
+                <div class="games__item">
+                    <a href="../game/2048.html">
+                        <img src="../images/2048game.png" width="200px" height="200px" alt="2048 Game">
+                        <p>2048</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-    <div>
-        <a href="../game/pushpuzzle.html">
-            <img src="../images/pushpuzzle200.jpg" width="200px" height="auto" alt="Push Puzzle">
-            <p>Daily Nonograms</p>
-        </a>
-    </div>
-    <div>
-        <a href="../game/floodfill.html">
-            <img src="../images/Floodfill.png" width="200px" height="200px" alt="Floodfill">
-            <p>Floodfill</p>
-        </a>
-    </div>
-    <div>
-        <a href="../game/onus.html">
-            <img src="../images/onus.webp" width="200px" height="200px" alt="Onus">
-            <p>Onus</p>
-        </a>
-    </div>
-    <div>
-        <a href="../game/dailysudoku.html">
-            <img src="../images/dailysudoku300x200.jpg" width="200px" height="auto" alt="Daily Sudoku">
-            <p>Daily Sudoku</p>
-        </a>
-    </div>
-    <div>
-        <a href="../game/tictactoe.html">
-            <img src="../images/tictactoe.png" width="200px" height="200px" alt="Tic Tac Toe">
-            <p>Tic Tac Toe</p>
-        </a>
-    </div>
-    <div>
-        <a href="../game/2048.html">
-            <img src="../images/2048game.png" width="200px" height="200px" alt="2048 Game">
-            <p>2048</p>
-        </a>
-    </div>
+
 </body>
 
 </html>
