@@ -44,6 +44,28 @@
   cursor: pointer;
 }
 
+.games {
+  width: 90%;
+  margin: 0 auto;
+}
+.games__category {
+  background: #b0b0b0;
+  margin: 1rem;
+}
+.games__category-items {
+  display: flex;
+  flex-flow: wrap;
+}
+.games__item {
+  padding: 0.5rem;
+  margin: 0.5rem auto;
+  background: #ffffff;
+}
+.games img {
+  width: 150px;
+  height: 125px;
+}
+
 header {
   padding-top: 75px;
   text-align: center;
