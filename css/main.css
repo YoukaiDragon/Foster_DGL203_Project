@@ -118,4 +118,9 @@ header {
   padding-top: 75px;
   text-align: center;
 }
+
+body {
+  background: #272727;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
