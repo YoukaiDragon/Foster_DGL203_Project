@@ -85,28 +85,31 @@
   height: 125px;
 }
 
-.login form {
+.login__form {
+  background: #b0b0b0;
+  color: black;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   width: 50%;
   margin: 0 auto;
 }
 @media screen and (min-width: 1024px) {
-  .login form {
+  .login__form {
     width: 30%;
   }
 }
 @media screen and (min-width: 1600px) {
-  .login form {
+  .login__form {
     width: 20%;
   }
 }
-.login form .input-field {
+.login__form .input-field {
   display: flex;
   flex-direction: column;
   margin-bottom: 5px;
 }
-.login form input {
+.login__form input {
   max-width: 400px;
 }
 .login #login-btn {

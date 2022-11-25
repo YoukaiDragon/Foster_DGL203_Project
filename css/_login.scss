@@ -1,5 +1,8 @@
 .login {
-    form {
+    &__form {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+        padding: 3rem;
         display: flex;
         flex-direction: column;
         width: 50%;
