@@ -118,6 +118,34 @@
   margin-right: 10px;
 }
 
+.register__form {
+  background: #b0b0b0;
+  color: black;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .register__form {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .register__form {
+    width: 20%;
+  }
+}
+.register__form .input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.register__form input {
+  max-width: 400px;
+}
+
 header {
   padding-top: 75px;
   text-align: center;

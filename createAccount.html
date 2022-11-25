@@ -7,29 +7,58 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
     <title>Create Account</title>
 </head>
 
-<body>
-    <form>
-        <div>
+<body class="register">
+    <nav class="nav">
+        <div class="nav__main">
+            <!-- Top Banner -->
+            <a class="logotype" href="index.html">ChillGames</a>
+            <a href="login.html">Login</a>
+            <a href="createAccount.html">Register</a>
+            <a href="account.html">Account</a>
+            <div class="search">
+                <form action="search.html">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="nav__games">
+            <a href="category/popular.html">Popular</a>
+            <a href="category/action.html">Action</a>
+            <a href="category/puzzle.html">Puzzle</a>
+            <a href="category/platform.html">Platformer</a>
+            <a href="category/favourites.html">Favourites</a>
+        </div>
+
+    </nav>
+    <header>
+        <h1>Create Account</h1>
+    </header>
+    <form class="register__form">
+        <div class="input-field">
             <label for="uname">Username</label>
             <input type="text" name="uname" required>
         </div>
-        <div>
+        <div class="input-field">
             <label for="email">Email</label>
             <input type="email" name="email" required>
         </div>
-        <div>
+        <div class="input-field">
             <label for="password">Password</label>
             <input type="password" name="password" required>
         </div>
-        <div>
+        <div class="input-field">
             <label for="confirm-password">Confirm Password</label>
             <input type="password" name="confirm-password" required>
         </div>
-        <button type="submit">Create Account</button>
-        <a href="login.html">login</a>
+        <div class="btns">
+            <button type="submit">Create Account</button>
+            <a href="login.html">login</a>
+        </div>
     </form>
 </body>
 

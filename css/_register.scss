@@ -1,0 +1,29 @@
+.register {
+    &__form {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+
+        @include media-lg {
+            width: 30%;
+        }
+
+        @include media-xl {
+            width: 20%;
+        }
+
+        .input-field {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5px;
+        }
+
+        input {
+            max-width: 400px;
+        }
+    }
+}
