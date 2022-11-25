@@ -4,6 +4,7 @@
 
     &__category {
         background: $secondary-color;
+        color: set-text-color($secondary-color);
         margin: 1rem;
     }
 
