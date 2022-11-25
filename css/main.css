@@ -85,6 +85,35 @@
   height: 125px;
 }
 
+.login form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .login form {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .login form {
+    width: 20%;
+  }
+}
+.login form .input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.login form input {
+  max-width: 400px;
+}
+.login #login-btn {
+  width: 80px;
+  margin-right: 10px;
+}
+
 header {
   padding-top: 75px;
   text-align: center;
