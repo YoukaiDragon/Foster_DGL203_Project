@@ -16,20 +16,39 @@
   color: rgb(164, 164, 164);
   font-size: 1rem;
   margin-right: 0.5rem;
+  flex-grow: 1;
+  padding: 2px;
+  text-align: center;
 }
 .nav a:hover {
   color: rgb(55, 55, 243);
+  background: white;
 }
 .nav__main {
-  margin-left: 10px;
+  margin: 0 auto;
   display: flex;
-  padding-bottom: 1rem;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .nav__main {
+    width: 80%;
+  }
 }
 .nav__games {
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
-  padding-bottom: 0.5rem;
+}
+.nav__games a {
+  padding: 3px 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .nav__games {
+    justify-content: space-around;
+  }
 }
 .nav .search {
   display: table;
