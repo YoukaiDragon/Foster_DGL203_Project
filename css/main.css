@@ -143,10 +143,15 @@
   background: #b0b0b0;
   color: black;
   margin: 1rem;
+  padding: 5px;
+}
+.games__category h2 {
+  text-align: center;
 }
 .games__category-items {
   display: flex;
-  flex-flow: wrap;
+  flex-flow: row wrap;
+  margin: 0 10px;
 }
 .games__item {
   padding: 0.5rem;
@@ -156,6 +161,21 @@
 .games img {
   width: 150px;
   height: 125px;
+}
+@media screen and (min-width: 768px) {
+  .games {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .games {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .games {
+    width: 50%;
+  }
 }
 
 .login__form {

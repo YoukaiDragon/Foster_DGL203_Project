@@ -6,11 +6,17 @@
         background: $secondary-color;
         color: set-text-color($secondary-color);
         margin: 1rem;
+        padding: 5px;
+
+        h2 {
+            text-align: center;
+        }
     }
 
     &__category-items {
         display: flex;
-        flex-flow: wrap;
+        flex-flow: row wrap;
+        margin: 0 10px;
     }
 
     &__item {
@@ -22,5 +28,17 @@
     img {
         width: 150px;
         height: 125px;
+    }
+
+    @include media-md {
+        width: 75%;
+    }
+
+    @include media-lg {
+        width: 60%;
+    }
+    
+    @include media-xl {
+        width: 50%;
     }
 }
