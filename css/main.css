@@ -244,6 +244,26 @@
   color: black;
 }
 
+.search__results {
+  background: #b0b0b0;
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.search__item {
+  align-self: center;
+  padding-bottom: 20px;
+}
+.search__item a {
+  text-decoration: none;
+}
+.search__item p {
+  text-align: center;
+}
+
 header {
   padding-top: 75px;
   text-align: center;

@@ -1,0 +1,24 @@
+.search {
+    &__results {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    &__item {
+        align-self: center;
+        padding-bottom: 20px;
+
+        a {
+           text-decoration: none; 
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+}
