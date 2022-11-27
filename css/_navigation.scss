@@ -8,7 +8,7 @@
     cursor: pointer;
     @include transition-ease;
 
-    @include media-md {
+    @include media-sm {
         visibility: hidden;
     }
 
@@ -67,7 +67,7 @@
     transform: translateY(-100%);
     @include transition-ease;
 
-    @include media-md {
+    @include media-sm {
         visibility: visible;
         transform: translateY(0);
     }
@@ -103,7 +103,7 @@
         flex-flow: row wrap;
         justify-content: center;
 
-        @include media-md {
+        @include media-sm {
             width: 80%;
         }
     }
@@ -120,7 +120,7 @@
             text-align: center;
         }
 
-        @include media-md {
+        @include media-sm {
             justify-content: space-around;
         }
     }

@@ -14,7 +14,7 @@
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 624px) {
   .menu-btn {
     visibility: hidden;
   }
@@ -68,7 +68,7 @@
   transform: translateY(-100%);
   transition: all 0.5s ease-in-out;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 624px) {
   .nav {
     visibility: visible;
     transform: translateY(0);
@@ -101,7 +101,7 @@
   flex-flow: row wrap;
   justify-content: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 624px) {
   .nav__main {
     width: 80%;
   }
@@ -117,7 +117,7 @@
   flex-grow: 1;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 624px) {
   .nav__games {
     justify-content: space-around;
   }
