@@ -4,12 +4,81 @@
   padding: 0;
 }
 
+.menu-btn {
+  position: fixed;
+  z-index: 3;
+  right: 0.5rem;
+  top: 1rem;
+  height: 20px;
+  width: 28px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    visibility: hidden;
+  }
+}
+.menu-btn__burger {
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+  width: 28px;
+  height: 3px;
+  background: white;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn__burger::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  width: 28px;
+  height: 3px;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn__burger::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn__burger.open {
+  transform: rotate(720deg);
+  background: transparent;
+}
+.menu-btn__burger.open::before {
+  transform: rotate(45deg) translate(5px, 8px);
+}
+.menu-btn__burger.open::after {
+  width: 28px;
+  transform: rotate(-45deg) translate(3px, -7px);
+}
+
 .nav {
   background: rgb(44, 43, 43);
   position: fixed;
   z-index: 2;
   width: 100%;
   padding-top: 0.5rem;
+  visibility: hidden;
+  transform: translateY(-100%);
+  transition: all 0.5s ease-in-out;
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+.nav.open {
+  transform: translateY(0);
+}
+.nav.open {
+  visibility: visible;
 }
 .nav a {
   text-decoration: none;
@@ -25,10 +94,12 @@
   background: white;
 }
 .nav__main {
+  width: 75%;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .nav__main {
@@ -38,7 +109,8 @@
 .nav__games {
   margin: 0 auto;
   display: flex;
-  justify-content: flex-end;
+  flex-flow: row wrap;
+  width: 75%;
 }
 .nav__games a {
   padding: 3px 10px;

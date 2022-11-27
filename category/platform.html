@@ -13,26 +13,32 @@
 </head>
 
 <body>
+    <div class="menu-btn">
+        <span class="menu-btn__burger"></span>
+    </div>
     <nav class="nav">
-        <div class="nav__main">
-            <!-- Top Banner -->
-            <a class="logotype" href="../index.html">ChillGames</a>
-            <a href="../login.html">Login</a>
-            <a href="../forum.html">Forum</a>
-            <a href="../account.html">Account</a>
-            <div class="search">
-                <form action="../search.html">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+        <div class="menu-nav">
+            <div class="nav__main">
+                <!-- Top Banner -->
+                <a class="logotype menu-nav__item" href="../index.html">ChillGames</a>
+                <a class="menu-nav__item" href="../login.html">Login</a>
+                <a class="menu-nav__item" href="../createAccount.html">Sign Up</a>
+                <a class="menu-nav__item" href="../forum.html">Forum</a>
+                <a class="menu-nav__item" href="../account.html">Account</a>
+                <div class="search">
+                    <form action="search.html">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div class="nav__games">
-            <a href="popular.html">Popular</a>
-            <a href="action.html">Action</a>
-            <a href="puzzle.html">Puzzle</a>
-            <a href="platform.html" class="active">Platformer</a>
-            <a href="favourites.html">Favourites</a>
+            <div class="nav__games">
+                <a class="menu-nav__item" href="popular.html">Popular</a>
+                <a class="menu-nav__item" href="action.html">Action</a>
+                <a class="menu-nav__item" href="puzzle.html">Puzzle</a>
+                <a class="menu-nav__item" href="platform.html">Platformer</a>
+                <a class="menu-nav__item" href="favourites.html">Favourites</a>
+            </div>
         </div>
     </nav>
     <div class="games">
@@ -57,5 +63,6 @@
         </div>
     </div>
 </body>
-
+<script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
+<script src="../scripts/hamburger.js"></script>
 </html>
