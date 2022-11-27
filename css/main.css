@@ -284,6 +284,34 @@
   text-align: center;
 }
 
+.account .summary {
+  background: #b0b0b0;
+  color: black;
+  width: 50%;
+  margin: 0 auto 40px;
+  padding: 5px;
+}
+.account .summary h2 {
+  text-align: center;
+}
+.account__games {
+  background: #b0b0b0;
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.account__games-category {
+  display: flex;
+  justify-content: space-around;
+}
+.account__games h2 {
+  text-align: center;
+}
+.account__games p {
+  text-align: center;
+}
+
 header {
   padding-top: 75px;
   text-align: center;

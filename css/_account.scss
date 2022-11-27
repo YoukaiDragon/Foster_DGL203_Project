@@ -1,0 +1,35 @@
+.account {
+    .summary {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+        width: 50%;
+        margin: 0 auto 40px;
+        padding: 5px;
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    &__games {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+
+        &-category {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+    }
+}
