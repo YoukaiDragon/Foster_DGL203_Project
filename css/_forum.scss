@@ -1,0 +1,32 @@
+.forum {
+
+    &__categories {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+        width: 80%;
+        margin: 0 auto;
+
+        ul {
+            list-style-type: none;
+            border: 2px solid set-text-color($secondary-color);
+        }
+    
+        li {
+            border-bottom: 1px solid set-text-color($secondary-color);
+            &:last-of-type {
+                border-bottom: none;
+            }
+
+            a {
+                padding-bottom: 5px;
+                padding-left: 5px;
+                display: block;
+                text-decoration: none;
+
+                span {
+                    color: set-text-color($secondary-color);
+                }
+            }
+        }
+    }
+}

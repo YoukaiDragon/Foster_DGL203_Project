@@ -146,6 +146,32 @@
   max-width: 400px;
 }
 
+.forum__categories {
+  background: #b0b0b0;
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+}
+.forum__categories ul {
+  list-style-type: none;
+  border: 2px solid black;
+}
+.forum__categories li {
+  border-bottom: 1px solid black;
+}
+.forum__categories li:last-of-type {
+  border-bottom: none;
+}
+.forum__categories li a {
+  padding-bottom: 5px;
+  padding-left: 5px;
+  display: block;
+  text-decoration: none;
+}
+.forum__categories li a span {
+  color: black;
+}
+
 header {
   padding-top: 75px;
   text-align: center;

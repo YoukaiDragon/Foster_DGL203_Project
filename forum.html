@@ -7,39 +7,58 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Forum</title>
 </head>
 
-<body>
+<body class="forum">
+    <nav class="nav">
+        <div class="nav__main">
+            <!-- Top Banner -->
+            <a class="logotype" href="index.html">ChillGames</a>
+            <a href="login.html">Login</a>
+            <a href="forum.html">Forum</a>
+            <a href="account.html">Account</a>
+            <div class="search">
+                <form action="search.html">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="nav__games">
+            <a href="category/popular.html">Popular</a>
+            <a href="category/action.html">Action</a>
+            <a href="category/puzzle.html">Puzzle</a>
+            <a href="category/platform.html">Platformer</a>
+            <a href="category/favourites.html">Favourites</a>
+        </div>
+
+    </nav>
     <header>
         <h1>Forum</h1>
         <p>Welcome to the ChillGames forum!</p>
     </header>
-    <div>
+    <div class="forum__categories">
         <ul>
             <li>
-                <a>Introductions</a>
-                <p>A place to introduce yourself to the community</p>
+                <a>Introductions<span><br>A place to introduce yourself to the community</span></a>
             </li>
             <li>
-                <a href="forum/websitegames.html">Website Games</a>
-                <p>Disuss games on the site here</p>
+                <a href="forum/websitegames.html">Website Games<span><br>Disuss games on the site here</span></a>
             </li>
             <li>
-                <a>Tutorials</a>
-                <p>Showcase your guides and tutorials here</p>
+                <a>Tutorials<span><br>Showcase your guides and tutorials here</span></a>
             </li>
             <li>
-                <a>Game Discussions</a>
-                <p>The place to talk about games in general</p>
+                <a>Game Discussions<span><br>The place to talk about games in general</span></a>
             </li>
             <li>
-                <a>Off Topic</a>
-                <p>Non-gaming related discussions posted here</p>
+                <a>Off Topic<span><br>Non-gaming related discussions posted here</span></a>
             </li>
             <li>
-                <a>Developers Hub</a>
-                <p>A place to discuss game development</p>
+                <a>Developers Hub<span><br>A place to discuss game development</span></a>
             </li>
         </ul>
     </div>
