@@ -312,6 +312,71 @@
   text-align: center;
 }
 
+.game__window iframe {
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 624px) {
+  .game__window iframe {
+    width: 500px;
+    height: 312.5px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .game__window iframe {
+    width: 600px;
+    height: 375px;
+  }
+}
+.game__summary {
+  width: 80%;
+  margin: 0 auto 20px;
+}
+.game .like-btns {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game .like-btns .rating {
+  margin-right: 10px;
+}
+.game .like-btns .rating h3 {
+  text-align: center;
+  margin-bottom: 3px;
+}
+.game .rec {
+  width: 90%;
+  margin: 0 auto;
+}
+.game .rec__games {
+  display: flex;
+}
+.game .rec__game {
+  margin: 3px;
+}
+.game .rec img {
+  width: 150px;
+  height: 100px;
+}
+.game .comments {
+  width: 80%;
+  margin: 0 auto;
+}
+.game .comments h2 {
+  text-align: center;
+}
+.game .comments .comment {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+.game .comments .comment__name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 header {
   padding-top: 75px;
   text-align: center;

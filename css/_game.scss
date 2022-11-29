@@ -1,0 +1,76 @@
+.game {
+    &__window iframe {
+        width: $game-width;
+        height: $game-height;
+        margin: 0 auto;
+
+        @include media-sm {
+            width: $game-width * 1.25;
+            height: $game-height * 1.25;
+        }
+
+        @include media-md {
+            width: $game-width * 1.5;
+            height: $game-height * 1.5;
+        }
+    }
+
+    &__summary {
+        width: 80%;
+        margin: 0 auto 20px;
+    }
+
+    .like-btns {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .rating {
+            margin-right: 10px;
+
+            h3 {
+                text-align: center;
+                margin-bottom: 3px;
+            }
+        }
+    }
+
+    .rec {
+        width: 90%;
+        margin: 0 auto;
+
+        &__games {
+            display: flex;
+        }
+
+        &__game {
+            margin: 3px;
+        }
+
+        img {
+            width: 150px;
+            height: 100px;
+        }
+    }
+
+    .comments {
+        width: 80%;
+        margin: 0 auto;
+
+        h2 {
+            text-align: center;
+        }
+
+        .comment {
+            list-style-type: none;
+            margin-bottom: 5px;
+
+            &__name {
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
