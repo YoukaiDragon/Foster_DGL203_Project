@@ -1,23 +1,31 @@
 .game {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+
+        @include media-xl {
+            display: grid;
+            grid-template-areas:
+                'game . rec'
+                'summary . rec'
+                'ratings . rec';
+        }
+    }
+
     &__window iframe {
-        width: $game-width;
-        height: $game-height;
-        margin: 0 auto;
-
-        @include media-sm {
-            width: $game-width * 1.25;
-            height: $game-height * 1.25;
-        }
-
-        @include media-md {
-            width: $game-width * 1.5;
-            height: $game-height * 1.5;
-        }
+        width: 100vw;
+        max-width: $max-game-width;
+        height: 60vw;
+        max-height: .6 * $max-game-width;
+        margin: 0 auto 40px;
+        grid-area: game;
     }
 
     &__summary {
         width: 80%;
         margin: 0 auto 20px;
+        grid-area: summary
     }
 
     .like-btns {
@@ -26,6 +34,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        grid-area: ratings;
 
         .rating {
             margin-right: 10px;
@@ -39,10 +48,23 @@
 
     .rec {
         width: 90%;
-        margin: 0 auto;
+        margin: 5px auto;
+        background: $secondary-color;
+        padding: 5px;
+        color: set-text-color($secondary-color);
+        grid-area: rec;
+
+        @include media-xl {
+            text-align: center;
+        }
 
         &__games {
             display: flex;
+
+            @include media-xl {
+                flex-direction: column;
+                align-items: center;
+            }
         }
 
         &__game {

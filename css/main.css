@@ -312,26 +312,28 @@
   text-align: center;
 }
 
+.game .main {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1600px) {
+  .game .main {
+    display: grid;
+    grid-template-areas: "game . rec" "summary . rec" "ratings . rec";
+  }
+}
 .game__window iframe {
-  width: 400px;
-  height: 250px;
-  margin: 0 auto;
-}
-@media screen and (min-width: 624px) {
-  .game__window iframe {
-    width: 500px;
-    height: 312.5px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .game__window iframe {
-    width: 600px;
-    height: 375px;
-  }
+  width: 100vw;
+  max-width: 1000px;
+  height: 60vw;
+  max-height: 600px;
+  margin: 0 auto 40px;
+  grid-area: game;
 }
 .game__summary {
   width: 80%;
   margin: 0 auto 20px;
+  grid-area: summary;
 }
 .game .like-btns {
   width: 80%;
@@ -339,6 +341,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  grid-area: ratings;
 }
 .game .like-btns .rating {
   margin-right: 10px;
@@ -349,10 +352,25 @@
 }
 .game .rec {
   width: 90%;
-  margin: 0 auto;
+  margin: 5px auto;
+  background: #b0b0b0;
+  padding: 5px;
+  color: black;
+  grid-area: rec;
+}
+@media screen and (min-width: 1600px) {
+  .game .rec {
+    text-align: center;
+  }
 }
 .game .rec__games {
   display: flex;
+}
+@media screen and (min-width: 1600px) {
+  .game .rec__games {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .game .rec__game {
   margin: 3px;
