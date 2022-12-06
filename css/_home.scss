@@ -24,21 +24,6 @@
         padding: 1rem;
         margin: 0.5rem 1rem;
         background: $accent-color;
-
-        .tooltip {
-            display: none;
-            position: absolute;
-            background: $tooltip-color;
-            color: set-text-color($tooltip-color);
-            z-index: 3;
-            margin-top: 2rem;
-            margin-left: -2rem;
-            padding: 1rem;
-        }
-
-        &:hover .tooltip {
-            display: block;
-        }
     }
 
     img {
