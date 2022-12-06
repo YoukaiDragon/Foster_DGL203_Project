@@ -48,7 +48,7 @@
 
     .rec {
         width: 90%;
-        margin: 5px auto;
+        margin: 2rem auto;
         background: $secondary-color;
         padding: 5px;
         color: set-text-color($secondary-color);
@@ -68,7 +68,14 @@
         }
 
         &__game {
-            margin: 3px;
+            margin: 0.5rem;
+            background: $accent-color;
+            padding: 1rem;
+
+            a {
+                text-decoration: none;
+                text-align: center;
+            }
         }
 
         img {
@@ -80,6 +87,26 @@
     .comments {
         width: 80%;
         margin: 0 auto;
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+
+        form {
+            margin-left: 10%;
+        }
+
+        label {
+            display: block;
+        }
+
+        #new-comment {
+            height: 5rem;
+            width: 80%;
+            display: block;
+        }
+
+        #comment-submit {
+            padding: 0.2rem;
+        }
 
         h2 {
             text-align: center;
@@ -88,6 +115,7 @@
         .comment {
             list-style-type: none;
             margin-bottom: 5px;
+            padding: 0 1rem;
 
             &__name {
                 font-weight: bold;

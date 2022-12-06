@@ -360,7 +360,7 @@
 }
 .game .rec {
   width: 90%;
-  margin: 5px auto;
+  margin: 2rem auto;
   background: #b0b0b0;
   padding: 5px;
   color: black;
@@ -381,7 +381,13 @@
   }
 }
 .game .rec__game {
-  margin: 3px;
+  margin: 0.5rem;
+  background: #ffffff;
+  padding: 1rem;
+}
+.game .rec__game a {
+  text-decoration: none;
+  text-align: center;
 }
 .game .rec img {
   width: 150px;
@@ -390,6 +396,22 @@
 .game .comments {
   width: 80%;
   margin: 0 auto;
+  background: #b0b0b0;
+  color: black;
+}
+.game .comments form {
+  margin-left: 10%;
+}
+.game .comments label {
+  display: block;
+}
+.game .comments #new-comment {
+  height: 5rem;
+  width: 80%;
+  display: block;
+}
+.game .comments #comment-submit {
+  padding: 0.2rem;
 }
 .game .comments h2 {
   text-align: center;
@@ -397,6 +419,7 @@
 .game .comments .comment {
   list-style-type: none;
   margin-bottom: 5px;
+  padding: 0 1rem;
 }
 .game .comments .comment__name {
   font-weight: bold;
