@@ -344,12 +344,17 @@
     grid-template-areas: "game . rec" "summary . rec" "ratings . rec";
   }
 }
-.game__window iframe, .game canvas {
+.game__window iframe {
   display: block;
   width: 100vw;
   max-width: 1000px;
   height: 60vw;
   max-height: 600px;
+  margin: 0 auto 40px;
+  grid-area: game;
+}
+.game canvas {
+  display: block;
   margin: 0 auto 40px;
   grid-area: game;
 }

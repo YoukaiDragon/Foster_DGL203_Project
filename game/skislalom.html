@@ -8,36 +8,106 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Ski Slalom</title>
 </head>
 
-<body>
+<body class="game">
+    <div class="menu-btn">
+        <span class="menu-btn__burger"></span>
+    </div>
+    <nav class="nav">
+        <div class="menu-nav">
+            <div class="nav__main">
+                <!-- Top Banner -->
+                <a class="logotype menu-nav__item" href="/index.html">ChillGames</a>
+                <a class="menu-nav__item" href="/login.html">Login</a>
+                <a class="menu-nav__item" href="/createAccount.html">Sign Up</a>
+                <a class="menu-nav__item" href="/forum.html">Forum</a>
+                <a class="menu-nav__item" href="/account.html">Account</a>
+                <div class="search">
+                    <form action="/search.html">
+                        <input type="text" placeholder="Search" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <p>Categories</p>
+            <div class="nav__games">
+                <a class="menu-nav__item" href="/category/popular.html">Popular</a>
+                <a class="menu-nav__item" href="/category/action.html">Action</a>
+                <a class="menu-nav__item" href="/category/puzzle.html">Puzzle</a>
+                <a class="menu-nav__item" href="/category/platform.html">Platformer</a>
+                <a class="menu-nav__item" href="/category/favourites.html">Favourites</a>
+            </div>
+        </div>
+    </nav>
     <header>
         <h1>Ski Slalom</h1>
     </header>
-    <div>
-        <script src="https://cdn.htmlgames.com/embed.js?game=SkiSlalom&amp;bgcolor=white"></script>
+    <div class="main">
+        <div class="game__window">
+            <script src="https://cdn.htmlgames.com/embed.js?game=SkiSlalom&amp;bgcolor=white"></script>
+        </div>
+        <p class="game__summary">
+            Use the left and right arrow keys or the buttons on the screen to move the skiier left and right to go
+            through the gates.
+        </p>
+        <div class="like-btns">
+            <div class="rating">
+                <h3>Rating</h3>
+                <button style="font-size:24px"><i class="fa fa-thumbs-up"></i></button>
+                <span>70</span><!-- Percentage of thumbs-up ratings (example) -->
+                <button style="font-size:24px"><i class="fa fa-thumbs-down"></i></button>
+            </div>
+            <div class="favourite">
+                <p>Add to favourites: <button style="font-size:24px"><i class="fa fa-heart-o"></i></button></p>
+            </div>
+            <!-- Text to go in tooltip -->
+        </div>
+        <div class="rec">
+            <h4>Other Games you may like:</h4>
+            <div class="rec__games">
+                <div class="rec__game">
+                    <a href="dailysudoku.html">
+                        <img src="/images/dailysudoku300x200.jpg" width="200px" height="auto" alt="Daily Sudoku">
+                        <p>Daily Sudoku</p>
+                    </a>
+                </div>
+                <div class="rec__game">
+                    <a href="pushpuzzle.html">
+                        <img src="/images/pushpuzzle200.jpg" width="200px" height="auto" alt="Push Puzzle">
+                        <p>Push Puzzle</p>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-    <p>
-        Use the left and right arrow keys or the buttons on the screen to move the skiier left and right to go through the gates.
-    </p>
-    <div>
-        <h2>Rating</h2>
-        <button style="font-size:24px"><i class="fa fa-thumbs-up"></i></button>
-        <span>70</span><!-- Percentage of thumbs-up ratings (example) -->
-        <button style="font-size:24px"><i class="fa fa-thumbs-down"></i></button>
-        <p>Add to favourites: <button style="font-size:24px"><i class="fa fa-heart-o"></i></button></p> <!-- Text to go in tooltip -->
-    </div>
-    <div>
-        <p>Other Games you may like:</p>
-    </div>
-    <div>
+    <div class="comments">
         <h2>Comments</h2>
+        <form>
+            <label for="new-comment">Add Comment</label>
+            <input type="text" id="new-comment" name="new-comment">
+            <input type="submit" id="comment-submit" value="Comment">
+        </form>
         <ul>
-            
+            <li class="comment">
+                <p class="comment__name">Lorem, ipsum.</p>
+                <p class="comment__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deserunt
+                    exercitationem quo suscipit
+                    magnam perspiciatis dolorum maxime saepe rem aliquam?</p>
+            </li>
+            <li class="comment">
+                <p class="comment__name">Lorem, ipsum.</p>
+                <p class="comment__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deserunt
+                    exercitationem quo suscipit
+                    magnam perspiciatis dolorum maxime saepe rem aliquam?</p>
+            </li>
         </ul>
     </div>
 </body>
+<script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
+<script src="/scripts/hamburger.js"></script>
 
 </html>

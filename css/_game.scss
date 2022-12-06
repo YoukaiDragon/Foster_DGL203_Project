@@ -13,12 +13,19 @@
         }
     }
 
-    &__window iframe, canvas {
+    &__window iframe {
         display: block;
         width: 100vw;
         max-width: $max-game-width;
         height: 60vw;
         max-height: .6 * $max-game-width;
+        margin: 0 auto 40px;
+        grid-area: game;
+    }
+
+    // Trying to use dynamic height / width breaks the canvas games (floodfill and tictactoe)
+    canvas {
+        display: block;
         margin: 0 auto 40px;
         grid-area: game;
     }
