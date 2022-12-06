@@ -160,7 +160,7 @@
   margin: 0 10px;
 }
 .games__item {
-  padding: 0.5rem;
+  padding: 1rem;
   margin: 0.5rem 1rem;
   background: #ffffff;
 }
@@ -176,11 +176,6 @@
 @media screen and (min-width: 1024px) {
   .games {
     width: 60%;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .games {
-    width: 50%;
   }
 }
 
