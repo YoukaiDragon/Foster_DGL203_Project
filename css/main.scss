@@ -22,3 +22,11 @@ body {
     background: $primary-color;
     color: set-text-color($primary-color);
 }
+
+a {
+    color: $link-color;
+}
+
+a:hover {
+    color: $highlight-color;
+}
