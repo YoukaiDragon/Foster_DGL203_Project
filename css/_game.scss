@@ -13,7 +13,7 @@
         }
     }
 
-    &__window iframe {
+    &__window iframe, canvas {
         width: 100vw;
         max-width: $max-game-width;
         height: 60vw;

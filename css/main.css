@@ -344,7 +344,7 @@
     grid-template-areas: "game . rec" "summary . rec" "ratings . rec";
   }
 }
-.game__window iframe {
+.game__window iframe, .game canvas {
   width: 100vw;
   max-width: 1000px;
   height: 60vw;
