@@ -345,6 +345,7 @@
   }
 }
 .game__window iframe, .game canvas {
+  display: block;
   width: 100vw;
   max-width: 1000px;
   height: 60vw;
