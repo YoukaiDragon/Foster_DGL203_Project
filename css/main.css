@@ -306,11 +306,18 @@
   display: flex;
   justify-content: space-around;
 }
+.account__games-item {
+  background: #ffffff;
+  padding: 1rem;
+}
 .account__games h2 {
   text-align: center;
 }
 .account__games p {
   text-align: center;
+}
+.account a {
+  text-decoration: none;
 }
 
 .game .main {

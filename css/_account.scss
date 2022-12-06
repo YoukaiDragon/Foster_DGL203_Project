@@ -23,6 +23,11 @@
             justify-content: space-around;
         }
 
+        &-item {
+            background: $accent-color;
+            padding: 1rem;
+        }
+
         h2 {
             text-align: center;
         }
@@ -31,5 +36,9 @@
             text-align: center;
         }
 
+    }
+
+    a {
+        text-decoration: none;
     }
 }
