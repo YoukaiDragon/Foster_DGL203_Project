@@ -164,19 +164,6 @@
   margin: 0.5rem 1rem;
   background: #ffffff;
 }
-.games__item .tooltip {
-  display: none;
-  position: absolute;
-  background: rgb(34, 95, 114);
-  color: white;
-  z-index: 3;
-  margin-top: 2rem;
-  margin-left: -2rem;
-  padding: 1rem;
-}
-.games__item:hover .tooltip {
-  display: block;
-}
 .games img {
   width: 150px;
   height: 125px;
@@ -446,7 +433,7 @@
 .game .comments .comment {
   list-style-type: none;
   margin-bottom: 5px;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 .game .comments .comment__name {
   font-weight: bold;
