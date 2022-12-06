@@ -81,7 +81,6 @@
   visibility: visible;
 }
 .nav a {
-  text-decoration: none;
   font-size: 1rem;
   margin-right: 0.5rem;
   flex-grow: 1;
@@ -272,9 +271,6 @@
   text-decoration: none;
   color: black;
 }
-.breadcrumbs a:hover {
-  color: blue;
-}
 
 .search__results {
   background: rgb(26, 38, 83);
@@ -463,6 +459,7 @@ body {
 
 a {
   color: rgb(50, 155, 187);
+  text-decoration: none;
 }
 
 a:hover {
