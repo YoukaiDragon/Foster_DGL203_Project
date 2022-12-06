@@ -11,7 +11,9 @@
 
     &__item {
         align-self: center;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
+        background: $accent-color;
+        padding: 1rem;
 
         a {
            text-decoration: none; 
