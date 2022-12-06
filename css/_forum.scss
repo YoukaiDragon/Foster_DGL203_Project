@@ -30,3 +30,16 @@
         }
     }
 }
+
+.breadcrumbs {
+    width: 80%;
+    margin: 0 auto 0.5rem;
+    a {
+        text-decoration: none;
+        color: set-text-color($primary-color);
+
+        &:hover {
+            color: blue;
+        }
+    }
+}

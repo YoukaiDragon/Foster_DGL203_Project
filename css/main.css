@@ -278,6 +278,18 @@
   color: black;
 }
 
+.breadcrumbs {
+  width: 80%;
+  margin: 0 auto 0.5rem;
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: white;
+}
+.breadcrumbs a:hover {
+  color: blue;
+}
+
 .search__results {
   background: #b0b0b0;
   color: black;
