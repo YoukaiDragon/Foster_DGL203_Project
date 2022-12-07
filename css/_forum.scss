@@ -10,9 +10,10 @@
             list-style-type: none;
             border: 2px solid set-text-color($secondary-color);
         }
-    
+
         li {
             border-bottom: 1px solid set-text-color($secondary-color);
+
             &:last-of-type {
                 border-bottom: none;
             }
@@ -37,12 +38,29 @@
         margin: 0 auto;
         padding: 2rem;
 
-        form {
-            
-        }
-
         ul {
             list-style-type: none;
+        }
+    }
+
+    &__discussion {
+
+        form {
+            margin-bottom: 1rem;
+            label {
+                display: block;
+            }
+
+            #new-comment {
+                display: block;
+                height: 4rem;
+                width: 80%;
+                margin-bottom: 5px;
+            }
+        }
+
+        li {
+            margin-bottom: 5px;
         }
     }
 }
@@ -50,6 +68,7 @@
 .breadcrumbs {
     width: 80%;
     margin: 0 auto 0.5rem;
+
     a {
         text-decoration: none;
         color: set-text-color($primary-color);

@@ -272,6 +272,21 @@
 .forum__discussion ul {
   list-style-type: none;
 }
+.forum__discussion form {
+  margin-bottom: 1rem;
+}
+.forum__discussion form label {
+  display: block;
+}
+.forum__discussion form #new-comment {
+  display: block;
+  height: 4rem;
+  width: 80%;
+  margin-bottom: 5px;
+}
+.forum__discussion li {
+  margin-bottom: 5px;
+}
 
 .breadcrumbs {
   width: 80%;
