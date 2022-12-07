@@ -29,6 +29,22 @@
             }
         }
     }
+
+    &__discussion {
+        background: $accent-color;
+        color: set-text-color($accent-color);
+        width: 80vw;
+        margin: 0 auto;
+        padding: 2rem;
+
+        form {
+            
+        }
+
+        ul {
+            list-style-type: none;
+        }
+    }
 }
 
 .breadcrumbs {

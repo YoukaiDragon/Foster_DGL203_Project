@@ -262,6 +262,16 @@
 .forum__categories li a span {
   color: white;
 }
+.forum__discussion {
+  background: #ffffff;
+  color: black;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.forum__discussion ul {
+  list-style-type: none;
+}
 
 .breadcrumbs {
   width: 80%;
@@ -324,9 +334,6 @@
 }
 .account__games p {
   text-align: center;
-}
-.account a {
-  text-decoration: none;
 }
 
 .game .main {
